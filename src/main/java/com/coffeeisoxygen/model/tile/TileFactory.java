@@ -1,15 +1,8 @@
-package com.coffeeisoxygen.model.factory;
+package com.coffeeisoxygen.model.tile;
 
 import java.awt.Point;
 
-import com.coffeeisoxygen.model.enumerate.TileType;
 import com.coffeeisoxygen.model.interfaces.ITileFactory;
-import com.coffeeisoxygen.model.tilemodel.Tile;
-import com.coffeeisoxygen.model.tilemodel.TileDangerPoint;
-import com.coffeeisoxygen.model.tilemodel.TileFinishPoint;
-import com.coffeeisoxygen.model.tilemodel.TileNormalPoint;
-import com.coffeeisoxygen.model.tilemodel.TileRestPoint;
-import com.coffeeisoxygen.model.tilemodel.TileStartPoint;
 
 public class TileFactory implements ITileFactory {
 

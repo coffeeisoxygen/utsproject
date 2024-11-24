@@ -1,12 +1,10 @@
-package com.coffeeisoxygen.model;
+package com.coffeeisoxygen.model.tile;
 
 import java.awt.Point;
 
 import com.coffeeisoxygen.model.board.Board;
-import com.coffeeisoxygen.model.enumerate.TileType;
 import com.coffeeisoxygen.model.interfaces.ITileFactory;
 import com.coffeeisoxygen.model.interfaces.ITilePlacementHelper;
-import com.coffeeisoxygen.model.tilemodel.Tile;
 
 public class TilePlacementHelper implements ITilePlacementHelper {
     private ITileFactory tileFactory;

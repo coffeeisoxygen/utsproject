@@ -1,11 +1,10 @@
-package com.coffeeisoxygen.model.tilemodel;
+package com.coffeeisoxygen.model.tile;
 
 import java.awt.Color;
 import java.awt.Point;
 import java.util.EnumMap;
 import java.util.Map;
 
-import com.coffeeisoxygen.model.enumerate.TileType;
 import com.coffeeisoxygen.model.interfaces.ITile;
 import com.coffeeisoxygen.model.playermodel.Player;
 

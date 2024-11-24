@@ -3,7 +3,7 @@ package com.coffeeisoxygen.model.interfaces;
 import java.awt.Point;
 
 import com.coffeeisoxygen.model.board.Board;
-import com.coffeeisoxygen.model.enumerate.TileType;
+import com.coffeeisoxygen.model.tile.TileType;
 
 public interface ITilePlacementHelper {
 

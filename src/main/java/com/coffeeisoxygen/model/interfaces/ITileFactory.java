@@ -2,8 +2,8 @@ package com.coffeeisoxygen.model.interfaces;
 
 import java.awt.Point;
 
-import com.coffeeisoxygen.model.enumerate.TileType;
-import com.coffeeisoxygen.model.tilemodel.Tile;
+import com.coffeeisoxygen.model.tile.Tile;
+import com.coffeeisoxygen.model.tile.TileType;
 
 public interface ITileFactory {
     Tile createTile(TileType type, Point position);

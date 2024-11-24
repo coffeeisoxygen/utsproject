@@ -2,14 +2,14 @@ package com.coffeeisoxygen.model.manager;
 
 import java.awt.Point;
 
-import com.coffeeisoxygen.model.TilePlacementHelper;
 import com.coffeeisoxygen.model.board.Board;
 import com.coffeeisoxygen.model.board.BoardBuilder;
-import com.coffeeisoxygen.model.factory.TileFactory;
 import com.coffeeisoxygen.model.interfaces.IBoardBuilder;
 import com.coffeeisoxygen.model.interfaces.ITile;
 import com.coffeeisoxygen.model.interfaces.ITileFactory;
 import com.coffeeisoxygen.model.interfaces.ITilePlacementHelper;
+import com.coffeeisoxygen.model.tile.TileFactory;
+import com.coffeeisoxygen.model.tile.TilePlacementHelper;
 
 public class BoardManager {
     private Board board;

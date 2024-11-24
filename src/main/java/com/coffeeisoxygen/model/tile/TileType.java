@@ -1,4 +1,4 @@
-package com.coffeeisoxygen.model.enumerate;
+package com.coffeeisoxygen.model.tile;
 
 public enum TileType {
 

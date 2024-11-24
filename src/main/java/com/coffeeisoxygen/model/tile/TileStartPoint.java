@@ -1,8 +1,7 @@
-package com.coffeeisoxygen.model.tilemodel;
+package com.coffeeisoxygen.model.tile;
 
 import java.awt.Point;
 
-import com.coffeeisoxygen.model.enumerate.TileType;
 import com.coffeeisoxygen.model.playermodel.Player;
 
 public class TileStartPoint extends Tile {

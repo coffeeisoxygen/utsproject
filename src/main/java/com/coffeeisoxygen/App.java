@@ -4,7 +4,7 @@ import java.awt.Point;
 
 import com.coffeeisoxygen.model.board.Board;
 import com.coffeeisoxygen.model.manager.BoardManager;
-import com.coffeeisoxygen.model.tilemodel.TileNormalPoint;
+import com.coffeeisoxygen.model.tile.TileNormalPoint;
 
 public class App {
     public static void main(String[] args) {
@@ -24,6 +24,13 @@ public class App {
         // Print the updated board state
         System.out.println("After setting a custom tile:");
         printBoard(board);
+        
+        // test to rezie the board
+        boardManager.resizeBoard(10, 10);
+        board = boardManager.getBoard();
+        System.out.println("After resizing the board:");
+        printBoard(board);
+
     }
 
     private static void printBoard(Board board) {
